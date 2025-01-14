@@ -1,0 +1,28 @@
+{
+  "name": "goit-js-hw-12-countries",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/Pan-Artur/goit-js-hw-12-countries#readme",
+  "bugs": {
+    "url": "https://github.com/Pan-Artur/goit-js-hw-12-countries/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pan-Artur/goit-js-hw-12-countries.git"
+  },
+  "license": "ISC",
+  "author": "Artur Pankovets",
+  "type": "module",
+  "scripts": {
+    "start": "npx parcel src/index.html",
+    "build": "parcel build src/index.html --public-url ./",
+    "deploy": "gh-pages -d dist",
+    "predeploy": "npm run build"
+  },
+  "dependencies": {
+    "@pnotify/core": "^5.2.0",
+    "lodash.debounce": "^4.0.8",
+    "parcel": "^2.13.3",
+    "pnotify": "^5.2.0"
+  }
+}
